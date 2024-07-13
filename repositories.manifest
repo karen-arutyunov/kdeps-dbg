@@ -12,4 +12,4 @@ location: https://github.com/karen-arutyunov/kdeps.git#main
 
 :
 role: prerequisite
-location: https://github.com/karen-arutyunov/kantan.git#main
+location: https://github.com/karen-arutyunov/kantan-core-components.git#main

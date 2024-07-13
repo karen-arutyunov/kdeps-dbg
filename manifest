@@ -11,7 +11,7 @@ email: karen@codesynthesis.com
 depends: * build2 >= 0.16.0
 depends: * bpkg >= 0.16.0
 
-depends: kantan
+depends: kantan-core-components
 
 depends:
 \

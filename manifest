@@ -10,4 +10,20 @@ email: karen@codesynthesis.com
 #build-error-email: karen@codesynthesis.com
 depends: * build2 >= 0.16.0
 depends: * bpkg >= 0.16.0
-depends: kdeps
+
+depends: kantan
+
+depends:
+\
+kdeps
+{
+  prefer
+  {
+  }
+  accept($config.kdeps.enable_reporting)
+  reflect
+  {
+    config.kdeps_dbg.enable_modules = $config.kdeps.enable_modules
+  }
+}
+\
